@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4 Project Group 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+                         .my-container{
+             width: 650px;
+            height: 550px;
+            padding:10px;
+            margin: auto;
+            border-radius:1%;
+            background-color:#e5e8eb;
+        }
+</style>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-secondary border-end border-5 border-warning">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-light min-vh-100">
+                <a href="#" class="d-flex align-items-center pb-3 mb-md-0 mt-md-2 me-auto text-light text-decoration-none">
+                    <span class="fs-4 d-none d-sm-inline">School Name</span><span class="fs-4 fst-italic">!</span>
+                </a>
+                <ul class="nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item"> <a href="dashboard.html" class="nav-link px-0 link-light">Dashboard</a> </li>
+                    <li class="nav-item"> <a href="notebooks.html" class="nav-link px-0 link-light">Virtual Notebooks</a> </li>
+                    <li class="nav-item"> <a href="task.html" class="nav-link px-0 link-light">Task</a> </li>
+                    <li class="nav-item"> <a href="profile.html" class="nav-link px-0 link-light">Profile</a> </li>
+                    <li class="nav-item"> <a href="#" class="nav-link px-0 link-light" onclick="logout()">Logout</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col p-0 pt-3" 
+            style="background-image: url('bg_gray1.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;">
+
+            <div class="container-fluid">
+            <div class="row g-3">
+                <div class="col">
+
+                        <div class="my-container">
+                    <div class="row g-3">
+
+    <div class="col">
+        <img src="https://cdn.cosmos.so/af5b92af-3467-4e44-81eb-a1be4dc79e8c?format=jpeg" class="img-fluid">
+        <h5>SOCIAL STUDIES</h5>
+        <p>PETA presentation:
+            Due May__
+        </p>
+    </div>
+
+    <div class="col">
+        <img src="https://cdn.cosmos.so/862b1892-aeea-4380-a57d-87a48edc0833?format=jpeg" class="img-fluid">
+        <h5>MATHEMATICS</h5>
+        <p>Drill 12:
+            Due May__
+        </p>
+    </div>
+         <br>
+    <div class="col">
+        <img src="https://cdn.cosmos.so/e68be504-5a85-41f5-8a9d-cd23191f65f5?format=jpeg" class="img-fluid">
+        <h5>SCIENCE</h5>
+        <p>ASSIGNMENT 2
+            Due May__
+        </p>
+
+        <!--How do you even put the columns down??????-->
+
+</div>
+                   
+       </div>
+         </div>
+            </div>
+
+    <!-- Footer -->
+    <footer class="bg-light bg-opacity-50 text-info text-center py-3 w-100">
+        <p class="mb-0">© 2026 Group 1 | 9-Sapphire All rights reserved.</p>
+    </footer>
+
+    <script>
+        // for Logout with cancel option
+        function logout() {
+            let confirmLogout = confirm("Exit now?"); //confirm() has 2 options : ok (True) and cancel(False)
+            
+            if (confirmLogout) { //if ok or True
+                window.location.href = "index.html"; //load page
+            }
+        }
+    </script>
+</body>
+</html>
