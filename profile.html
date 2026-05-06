@@ -35,41 +35,48 @@
 
             <!--profile-->
             <div class="container-fluid">
-            <div class="row g-3 m-3 p-3 border border-secondary rounded-5">
-                <h1 class="text-center">Student Profile</h1>
+            <div class="row g-3 m-3 p-3 bg-light border border-secondary border-3 rounded-5">
+                <h1 class="text-center">Student Profile<span class="fst-italic">!</span></h1>
 
                 <br>
 
                 <form action="#">
-                    <p class="fw-bold">Profile Picture</p>
-                        <img src="marin_pfp.jpg" width="100" height="100">
-                        <input type="file">
-                        <button type="submit" id="" name="">Upload Photo</button>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p class="fw-bold">Profile Picture</p>
+                            <img src="marin_pfp.jpg" width="100" height="100" class="img-thumbnail">
+                            <input type="file">
+                        </div>
+
+                        <div class="col-md-6 d-flex align-items-center mt-4">
+                            <button type="submit" id="" name="" class=" w-25">Upload Photo</button>
+                        </div>
+                    </div>
 
                     <br><br>
 
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label for="name1" class="form-label">First Name:</label>
+                            <label for="name1" class="form-label fw-bold">First Name:</label>
                             <h6>Marin</h6>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="name2" class="form-label">Last Name:</label>
+                            <label for="name2" class="form-label fw-bold">Last Name:</label>
                             <h6>Kitagawa</h6>
                         </div>
-                        </div>
+                    </div>
 
                         <br>
 
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label for="name1" class="form-label">Username:</label>
+                            <label for="name1" class="form-label fw-bold">Username:</label>
                             <h6>Marin17kitagawa</h6>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="name2" class="form-label">Student ID:</label>
+                            <label for="name2" class="form-label fw-bold">Student ID:</label>
                             <h6>31182718</h6>
                         </div>
                     </div>
@@ -78,12 +85,12 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="name2" class="form-label">Address:</label>
+                            <label for="name2" class="form-label fw-bold">Address:</label>
                             <h6>Barangay OBMC lot 305 Sapphire Street</h6>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="name2" class="form-label">Email:</label>
+                            <label for="name2" class="form-label fw-bold">Email:</label>
                             <h6>marinkitagawa67@gmail.com</h6>
                         </div>
                     </div>
@@ -92,12 +99,12 @@
 
                     <div class="row">  
                         <div class="col-md-6">
-                            <label for="Gender">Gender:</label>
+                            <label for="Gender" class="form-label fw-bold">Gender:</label>
                             <h6>Female</h6>
                         </div>
 
                         <div class="col-md-6">
-                            <label for="name2" class="form-label">Contact Number:</label>
+                            <label for="name2" class="form-label fw-bold">Contact Number:</label>
                             <h6>000-000-000-00</h6>
                         </div>
                     </div>
